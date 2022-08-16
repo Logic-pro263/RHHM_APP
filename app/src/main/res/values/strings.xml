@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RHHM - Mali</string>
+
+    <!-- Welcome Activity -->
+    <string name="title">RHHM</string>
+    <string name="subtitle">N°1 du rap Malien</string>
+    <string name="startText">Glisser pour commencer</string>
+
+    <!-- Login Activity -->
+    <string name="skip_btn">ignorer</string>
+    <string name="title_connexion">Conexion</string>
+    <string name="pseudo">Identifiant</string>
+    <string name="login_password">***************</string>
+    <string name="forget_password">Mot de passe oublié ?</string>
+    <string name="connexion_btn">Se connecter </string>
+    <string name="condition">ou</string>
+    <string name="signup_text">Pas de compte ? </string>
+    <string name="signup_link">S\'inscrire</string>
+
+    <!-- SignUp Activity -->
+    <string name="signup_title">Inscription</string>
+    <string name="username">Choisir un identifiant</string>
+    <string name="email">Entrer un adresse email</string>
+    <string name="password">Entrer un mot de passe</string>
+    <string name="_repassword">Resaisisser mot de passe</string>
+    <string name="signup_btn">S\'inscrire</string>
+
+    <!-- Reset Password Activity -->
+    <string name="forget_password_text">Entrer l\'adresse associer avec votre compte. Nous vous enverrons un lien pour rénitialiser votre mot de passe</string>
+    <string name="reset_email">Saisir adresse email</string>
+    <string name="reset_password_btn">Envoyer l\'email</string>
+
+    <!-- Reset Password send confirm Activity -->
+    <string name="email_send_succes">Nous vous avons envoyer un email contenant un lien de rénitialisation de votre mot de passe à l\' adresse que vous avez saisie. Verifier pour changer votre mot de passe.</string>
+    <string name="resent">Renvoyer l\'email</string>
+    <!-- Home Activity -->
+</resources>
