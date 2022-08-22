@@ -45,105 +45,64 @@
         android:textColor="@color/primary"
         android:fontFamily="@font/poppinsbold"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/default_margin"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/edit_text"
-        android:paddingLeft="10dp">
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/ic_username"
-            android:layout_gravity="center_vertical"
-            android:layout_marginRight="10dp"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="@dimen/default_edit_text_height"
             android:hint="@string/username"
-            android:paddingLeft="10dp"
+            android:paddingLeft="20dp"
             android:fontFamily="@font/poppinsregular"
+            android:background="@drawable/edit_text"
             android:textColor="@color/black"
             android:layout_gravity="center_vertical"
+            android:drawableStart="@drawable/ic_username"
+            android:drawablePadding="15dp"
             android:textColorHint="@color/second"/>
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/default_margin"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/edit_text"
-        android:paddingLeft="10dp">
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/ic_email"
-            android:layout_gravity="center_vertical"
-            android:layout_marginRight="10dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="@dimen/default_edit_text_height"
             android:hint="@string/email"
-            android:paddingLeft="10dp"
+            android:paddingLeft="@dimen/default_padding"
             android:fontFamily="@font/poppinsregular"
             android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_email"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="@dimen/default_padding"
+            android:drawablePadding="15dp"
             android:layout_gravity="center_vertical"
             android:textColorHint="@color/second"/>
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/default_margin"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/edit_text"
-        android:paddingLeft="10dp">
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/ic_lock"
-            android:layout_gravity="center_vertical"
-            android:layout_marginRight="10dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="@dimen/default_edit_text_height"
             android:hint="@string/password"
-            android:paddingLeft="10dp"
+            android:paddingLeft="@dimen/default_padding"
             android:fontFamily="@font/poppinsregular"
             android:textColor="@color/black"
             android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/default_padding"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="15dp"
             android:textColorHint="@color/second"/>
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/default_margin"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/edit_text"
-        android:paddingLeft="10dp">
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/ic_lock"
-            android:layout_gravity="center_vertical"
-            android:layout_marginRight="10dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="@dimen/default_edit_text_height"
             android:hint="@string/_repassword"
-            android:paddingLeft="10dp"
+            android:paddingLeft="@dimen/default_padding"
+            android:layout_marginTop="@dimen/default_padding"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="15dp"
             android:fontFamily="@font/poppinsregular"
             android:textColor="@color/black"
             android:layout_gravity="center_vertical"
             android:textColorHint="@color/second"/>
-
-    </LinearLayout>
 
     <Button
         android:layout_width="match_parent"

@@ -48,13 +48,6 @@
         android:textColor="@color/primary"
         android:textSize="35sp"/>
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/title_login"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/ic_email" />
 
     <EditText
         android:id="@+id/pseudo"
@@ -63,19 +56,14 @@
         android:layout_below="@+id/title_login"
         android:layout_marginTop="30dp"
         android:background="@drawable/edit_text"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="15dp"
         android:fontFamily="@font/poppinsregular"
         android:hint="@string/pseudo"
-        android:paddingLeft="45dp"
+        android:paddingLeft="@dimen/default_padding"
         android:textColor="@color/black"
         android:textColorHint="@color/second" />
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/pseudo"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/ic_lock" />
 
     <EditText
         android:id="@+id/password"
@@ -85,9 +73,11 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/edit_text"
         android:fontFamily="@font/poppinsregular"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="15dp"
         android:inputType="textPassword"
         android:hint="@string/login_password"
-        android:paddingLeft="45dp"
+        android:paddingLeft="@dimen/default_padding"
         android:textColor="@color/black"
         android:textColorHint="@color/second" />
 
